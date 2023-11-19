@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  object-fit: cover;
+}
+nav {
+  background-color: rgb(248, 242, 225);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 60px;
+  padding: 20px 20px;
+}
+button {
+  display: flex;
+  align-items: center;
+  background-color: rgb(243, 211, 105);
+  border: none;
+  border-radius: 60px;
+  margin: 5px 5px;
+  padding-block: 20px;
+  padding-inline: 40px;
+}
+img {
+  width: 40px;
+  padding-right: 10px;
+}
+button:hover {
+    font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex: 2 1 100px;
+  transition: 5s;
+}
